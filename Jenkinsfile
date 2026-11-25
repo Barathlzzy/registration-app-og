@@ -12,7 +12,7 @@ pipleline {
     }
     stage{"Checkout from SCM"}{
       steps {
-      git branch: 'main' , credentialsId: ;'github' , url: 'https://github.com/Barathlzzy/registration-app-og"
+      git branch: 'main' , credentialsId: 'github' , url: 'https://github.com/Barathlzzy/registration-app-og"
       }
     }   
     stage{"Build Application"}{
